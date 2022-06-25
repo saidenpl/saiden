@@ -10,13 +10,14 @@
     <hr />
     <div class="project-description">
       <slot></slot>
+      <ProjectTag v-for="tag in tags" :key="tag" :name="tag" />
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  props: ['title', 'from', 'to', 'web'],
+  props: ['title', 'from', 'to', 'web', 'tags'],
 }
 </script>
 

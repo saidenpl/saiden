@@ -5,6 +5,7 @@
       from="2016-11-01"
       to="2021-08-01"
       web="https://roomzilla.net"
+      :tags="['ruby', 'postgresql', 'heroku']"
     >
       A SaaS resource booking system. Originally specific to conference rooms,
       eventually allowing for booking almost any office resource.
@@ -16,12 +17,6 @@
         <li>Vue 2.6 frontend</li>
         <li>Calendar integrations using Google API and MS Graph</li>
       </ul>
-      <ProjectTag name="ruby" />
-      <ProjectTag name="postgresql" />
-      <ProjectTag name="vuejs" />
-      <ProjectTag name="Heroku" icon="heroku-plain" />
-      <ProjectTag name="Google API" icon="google-plain" />
-      <ProjectTag name="MS Graph" icon="windows8-plain" />
     </ProjectItem>
   </div>
 </template>

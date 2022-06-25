@@ -5,18 +5,20 @@
   </span>
 </template>
 <script>
-const mappings = require('./mappings').default;
+const mappings = require('./mappings').default
 
 export default {
   props: ['name'],
   methods: {
     iconName() {
-      return ( mappings[this.name] === undefined ) ? '' : mappings[this.name].name
+      return mappings[this.name] === undefined ? '' : mappings[this.name].name
     },
     iconClass() {
-      return ( mappings[this.name] === undefined ) ? '' : `devicon-${mappings[this.name].icon}`
-    }
-  }
+      return mappings[this.name] === undefined
+        ? ''
+        : `devicon-${mappings[this.name].icon}`
+    },
+  },
 }
 </script>
 <style>
