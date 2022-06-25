@@ -2,6 +2,6 @@
   <div>
     <i class="devicon-ruby-plain"></i>
 
-    <Project title="Roomzilla" :tags="[1, 2, 3, 4]"> </Project>
+    <ProjectItem title="Roomzilla" :tags="[1, 2, 3, 4]"> </ProjectItem>
   </div>
 </template>
