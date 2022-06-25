@@ -4,6 +4,7 @@
       <span class="project-title">{{ title }}</span>
       <span class="project-time">{{ from }} - {{ to }}</span>
     </div>
+    <hr />
     <div class="project-description">
       <slot></slot>
     </div>
@@ -18,6 +19,7 @@ export default {
 
 <style>
 .project-item {
+  color: white;
   display: table;
   grid-row: auto;
 }
@@ -32,7 +34,12 @@ export default {
   float: left;
 }
 
+.project-item {
+  width: 100%;
+}
+
 .project-time {
+  color: gray;
   display: inline-block;
   float: right;
 }
