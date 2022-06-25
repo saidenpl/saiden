@@ -17,12 +17,12 @@ export default {
   props: {
     title: {
       type: String,
-      default: ''
+      default: '',
     },
     tags: {
       type: Array,
-      default: () => []
-    }
-  }
+      default: () => [],
+    },
+  },
 }
 </script>
