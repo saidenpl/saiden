@@ -1,0 +1,27 @@
+div {
+  margin-bottom: 2rem;
+}
+
+a.navbar-link,
+a.navbar-link:visited,
+a.navbar-link:active {
+  display: inline-block;
+  margin-right: 2rem;
+  min-width: 5rem;
+  color: lightgray;
+  display: inline-block;
+  font-weight: bolder;
+  text-decoration: none;
+  border-bottom: 2px solid lightgray;
+  text-transform: uppercase;
+}
+
+a.navbar-link:hover {
+  color: white;
+  border-bottom-color: white;
+}
+
+a.navbar-link.nuxt-link-exact-active {
+  color: red;
+  border-bottom-color: red;
+}
