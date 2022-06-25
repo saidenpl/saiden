@@ -16,9 +16,9 @@
         <li>Vue 2.6 frontend</li>
         <li>Calendar integrations using Google API and MS Graph</li>
       </ul>
-      <ProjectTag name="Ruby" icon="ruby-plain" />
-      <ProjectTag name="PostgreSQL" icon="postgresql-plain" />
-      <ProjectTag name="Vue.js" icon="vuejs-plain" />
+      <ProjectTag name="ruby" />
+      <ProjectTag name="postgresql" />
+      <ProjectTag name="vuejs" />
       <ProjectTag name="Heroku" icon="heroku-plain" />
       <ProjectTag name="Google API" icon="google-plain" />
       <ProjectTag name="MS Graph" icon="windows8-plain" />

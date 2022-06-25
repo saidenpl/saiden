@@ -1,17 +1,22 @@
 <template>
   <span class="tag">
     <i :class="iconClass()"></i>
-    {{ name }}
+    {{ iconName() }}
   </span>
 </template>
 <script>
+const mappings = require('./mappings').default;
+
 export default {
-  props: ['name', 'icon'],
+  props: ['name'],
   methods: {
-    iconClass() {
-      return `devicon-${this.icon}`
+    iconName() {
+      return ( mappings[this.name] === undefined ) ? '' : mappings[this.name].name
     },
-  },
+    iconClass() {
+      return ( mappings[this.name] === undefined ) ? '' : `devicon-${mappings[this.name].icon}`
+    }
+  }
 }
 </script>
 <style>
