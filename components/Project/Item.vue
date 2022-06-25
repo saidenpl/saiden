@@ -1,8 +1,11 @@
 <template>
   <div class="project-item">
     <div class="project-details">
-      <span class="project-title">{{ title }}</span>
-      <span class="project-time">{{ from }} - {{ to }}</span>
+      <div class="project-title">{{ title }}</div>
+      <div class="project-time">{{ from }} - {{ to }}</div>
+    </div>
+    <div class="project-website">
+      <a :href="web">{{ web }}</a>
     </div>
     <hr />
     <div class="project-description">
@@ -13,7 +16,7 @@
 
 <script>
 export default {
-  props: ['title', 'from', 'to'],
+  props: ['title', 'from', 'to', 'web'],
 }
 </script>
 
@@ -21,26 +24,34 @@ export default {
 .project-item {
   color: white;
   display: table;
-  grid-row: auto;
 }
+
 .project-title,
 .project-time {
   font-size: 1.5rem;
   text-transform: uppercase;
 }
 
+.project-time {
+  float: right;
+}
+
 .project-title {
+  font-weight: bold;
   display: inline-block;
-  float: left;
 }
 
 .project-item {
   width: 100%;
 }
 
+.project-website,
 .project-time {
   color: gray;
   display: inline-block;
-  float: right;
+}
+
+.project-description {
+  color: lightgray;
 }
 </style>
