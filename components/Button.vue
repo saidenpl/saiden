@@ -12,6 +12,7 @@ export default {
 
 <style>
 div.button {
+  margin-top: 2rem;
   cursor: pointer;
   border-radius: 5px;
   background-color: white;

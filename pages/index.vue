@@ -6,7 +6,7 @@
     <div class="welcome-text">
       <h3>Welcome to Saiden, a sanctuary of digital thought</h3>
     </div>
-    <NuxtLink class="navbar-link" to="/about">
+    <NuxtLink to="/about">
       <Button>
         See more about me
         <i class="fa-solid fa-arrow-right"></i>
