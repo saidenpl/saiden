@@ -18,11 +18,12 @@
         'redis',
       ]"
     >
-      A SaaS resource booking system. Originally specific to conference rooms,
-      eventually allowing for booking almost any office resource. I bootstrapped
-      two new versions of the product and was responsible for most tech related
-      choices in the project. Long time sole devloper of the project. Took part
-      in creation of the tech team: FE, QA additionas
+      A SaaS resource booking system. Team of 1 QA, 1 FE and 2 Fullstacks.
+      Originally specific to conference rooms, eventually allowing for booking
+      almost any office resource. I bootstrapped two new versions of the product
+      and was responsible for most tech related choices in the project. Long
+      time sole devloper of the project. Took part in creation of the tech team:
+      FE, QA additionas
       <ul>
         <li>
           Tablet web app for direct control and status display of a resource
@@ -64,9 +65,10 @@
       role="Senior Developer"
       :tags="['ruby', 'rails', 'postgresql', 'mongodb', 'redis']"
     >
-      A VOD Platform and its backend-supporting services for media management. A
-      fun job related to a large VOD provider owned by one of the largest media
-      companies in the country. Here I was also mentoring newly acquired talent.
+      A VOD Platform and its backend-supporting services for media management.
+      Part of a team of 6 rubbyist. A fun job related to a large VOD provider
+      owned by one of the largest media companies in the country. Here I was
+      also mentoring newly acquired talent.
       <ul>
         <li>Legacy Rails 3 and 4 backends</li>
         <li>jQuery</li>
