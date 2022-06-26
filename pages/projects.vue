@@ -10,12 +10,13 @@
       :tags="[
         'ruby',
         'rails',
+        'vuejs',
         'postgresql',
         'heroku',
         'azure',
         'googleApi',
         'msgraph',
-        'redis',
+        'redis'
       ]"
     >
       A SaaS resource booking system. Team of 1 QA, 1 FE and 2 Fullstacks.
@@ -42,7 +43,7 @@
       web="https://www.polsatbox.pl/"
       client="Cyfrowy Posat S.A."
       role="Senior Developer"
-      :tags="['ruby', 'rails', 'mongodb', 'docker']"
+      :tags="['ruby', 'rails', 'mongodb', 'docker', 'jquery']"
     >
       A Continious Delivery platform based on Docker. Sole author and designer
       of the solution. Rails monolith along with Ruby processes handling the
@@ -63,7 +64,7 @@
       web="https://ipla.tv"
       client="Cyfrowy Posat S.A."
       role="Senior Developer"
-      :tags="['ruby', 'rails', 'postgresql', 'mongodb', 'redis']"
+      :tags="['ruby', 'rails', 'postgresql', 'mongodb', 'redis', 'jquery']"
     >
       A VOD Platform and its backend-supporting services for media management.
       Part of a team of 6 rubbyist. A fun job related to a large VOD provider
@@ -84,7 +85,7 @@
       web="https://www.polsatbox.pl/"
       client="Cyfrowy Posat S.A."
       role="Senior Developer"
-      :tags="['ruby', 'rails', 'mongodb', 'redis']"
+      :tags="['ruby', 'rails', 'mongodb', 'redis', 'jquery']"
     >
       Co-designer of the project. A intelectual property tracking system.
       Responsible for finding and reporting illegal content. Support for most
