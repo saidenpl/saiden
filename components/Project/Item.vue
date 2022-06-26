@@ -1,7 +1,9 @@
 <template>
   <div class="project-item">
     <div class="project-details">
-      <div class="project-title"><strong>{{ title }}</strong> for {{client}}</div>
+      <div class="project-title">
+        <strong>{{ title }}</strong> for {{ client }}
+      </div>
       <div class="project-time">{{ from }} - {{ to }}</div>
     </div>
     <div class="project-website">

@@ -10,12 +10,17 @@ const mappings = require('./mappings').default
 export default {
   props: ['name'],
   methods: {
+    capitalisedName() {
+      return this.name.charAt(0).toUpperCase() + this.name.slice(1)
+    },
     iconName() {
-      return mappings[this.name] === undefined ? '' : mappings[this.name].name
+      return mappings[this.name] === undefined
+        ? this.capitalisedName()
+        : mappings[this.name].name
     },
     iconClass() {
       return mappings[this.name] === undefined
-        ? ''
+        ? `devicon-${this.name}-plain`
         : `devicon-${mappings[this.name].icon}`
     },
   },
