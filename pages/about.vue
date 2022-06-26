@@ -21,6 +21,11 @@
       </li>
     </ul>
     <div class="portrait">
+      <a href="/cv.pdf">
+        <Button>
+          <i class="fa-solid fa-file-pdf"></i> Download my CV as PDF
+        </Button>
+      </a>
       <NuxtLink to="/projects">
         <Button>
           List of projects I have been part of
