@@ -21,7 +21,7 @@
       </li>
     </ul>
     <div class="portrait">
-      <a href="/cv.pdf">
+      <a href="/cv.pdf" target="_blank">
         <Button>
           <i class="fa-solid fa-file-pdf"></i> Download my CV as PDF
         </Button>
