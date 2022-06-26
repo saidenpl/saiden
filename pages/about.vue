@@ -28,7 +28,7 @@
       </a>
       <NuxtLink to="/projects">
         <Button>
-          List of projects I have been part of
+          Some of projects I have been part of
           <i class="fa-solid fa-arrow-right"></i>
         </Button>
       </NuxtLink>

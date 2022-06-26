@@ -35,6 +35,27 @@
     </ProjectItem>
 
     <ProjectItem
+      title="Kantei"
+      from="2015-01"
+      to="2016-11"
+      web="https://www.polsatbox.pl/"
+      client="Cyfrowy Posat S.A."
+      role="Senior Developer"
+      :tags="['ruby', 'rails', 'mongodb', 'docker']"
+    >
+      A Continious Delivery platform based on Docker. Sole author and designer
+      of the solution. Rails monolith along with Ruby processes handling the
+      path of an application from git push to deploy
+      <ul>
+        <li>Rails 4 then 5 monolith</li>
+        <li>Docker API</li>
+        <li>MongoDB backend storage</li>
+        <li>Async jobs and cron-like handling</li>
+        <li>Worker and Web processes</li>
+      </ul>
+    </ProjectItem>
+
+    <ProjectItem
       title="Ipla TV"
       from="2014-05"
       to="2016-11"
@@ -43,7 +64,7 @@
       role="Senior Developer"
       :tags="['ruby', 'rails', 'postgresql', 'mongodb', 'redis']"
     >
-      A VOD Platform and its backend supporting services for media management. A
+      A VOD Platform and its backend-supporting services for media management. A
       fun job related to a large VOD provider owned by one of the largest media
       companies in the country. Here I was also mentoring newly acquired talent.
       <ul>
@@ -68,7 +89,7 @@
       popular file hosting sites, Bittorrent trackers, RSS feeds, popular
       forums.
       <ul>
-        <li>Rails 4 then 5 backends</li>
+        <li>Rails 4 then 5 monolith</li>
         <li>jQuery</li>
         <li>Google search integrations</li>
         <li>Google DMCA</li>
