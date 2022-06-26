@@ -1,10 +1,24 @@
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  padding-left: 20rem;
-  padding-right: 20rem;
   background-color: black;
   color: lightgray;
+}
+
+div.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 66vh;
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1441px) {
+  div.container {
+    width: 80vh;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  div.container {
+    width: 100%;
+  }
 }

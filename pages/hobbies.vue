@@ -1,3 +1,3 @@
 <template>
-  <div>Dupa</div>
+  <div>Foobar</div>
 </template>
