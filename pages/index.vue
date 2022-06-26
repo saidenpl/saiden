@@ -12,7 +12,7 @@
 <style>
 div.logo-container,
 div.welcome-text > h3 {
-  padding-top: 4rem;
+  padding-top: 5rem;
   text-align: center;
 }
 </style>

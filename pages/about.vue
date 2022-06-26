@@ -35,6 +35,7 @@ ul.about-list {
 .portrait img {
   border-radius: 50%;
   border: 2px solid white;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
 }
 </style>
