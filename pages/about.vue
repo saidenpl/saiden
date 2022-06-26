@@ -1,6 +1,9 @@
 <template>
   <div>
     <h3 class="about-tagline">
+      <div class="portrait">
+        <img src="/portrait.jpg" alt="portrait" />
+      </div>
       Communicative and resourceful Software Developer with significant
       experience
     </h3>
@@ -27,5 +30,11 @@ h3.about-tagline {
 
 ul.about-list {
   padding-left: 4rem;
+}
+
+.portrait img {
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-bottom: 10rem;
 }
 </style>
