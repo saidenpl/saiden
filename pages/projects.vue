@@ -9,6 +9,7 @@
       role="Senior Developer"
       :tags="[
         'ruby',
+        'rails',
         'postgresql',
         'heroku',
         'azure',
@@ -18,7 +19,10 @@
       ]"
     >
       A SaaS resource booking system. Originally specific to conference rooms,
-      eventually allowing for booking almost any office resource.
+      eventually allowing for booking almost any office resource. I bootstrapped
+      two new versions of the product and was responsible for most tech related
+      choices in the project. Long time sole devloper of the project. Took part
+      in creation of the tech team: FE, QA additionas
       <ul>
         <li>
           Tablet web app for direct control and status display of a resource
@@ -35,27 +39,41 @@
       from="2014-05"
       to="2016-11"
       web="https://ipla.tv"
-      client="Cyfrowy Posat sp. z o.o."
-      :tags="[
-        'ruby',
-        'postgresql',
-        'heroku',
-        'azure',
-        'googleApi',
-        'msgraph',
-        'redis',
-      ]"
+      client="Cyfrowy Posat S.A."
+      role="Senior Developer"
+      :tags="['ruby', 'rails', 'postgresql', 'mongodb', 'redis']"
     >
-      A SaaS resource booking system. Originally specific to conference rooms,
-      eventually allowing for booking almost any office resource.
+      A VOD Platform and its backend supporting services for media management. A
+      fun job related to a large VOD provider owned by one of the largest media
+      companies in the country. Here I was also mentoring newly acquired talent.
       <ul>
-        <li>
-          Tablet web app for direct control and status display of a resource
-        </li>
-        <li>Rails 6 backend</li>
-        <li>Vue 2.6 frontend</li>
-        <li>Calendar integrations using Google API and MS Graph</li>
-        <li>Hosted on Heroku</li>
+        <li>Legacy Rails 3 and 4 backends</li>
+        <li>jQuery</li>
+        <li>Facebook integrations</li>
+        <li>PostgreSQL databases with media metadata</li>
+      </ul>
+    </ProjectItem>
+
+    <ProjectItem
+      title="Scanner"
+      from="2014-05"
+      to="2016-11"
+      web="https://www.polsatbox.pl/"
+      client="Cyfrowy Posat S.A."
+      role="Senior Developer"
+      :tags="['ruby', 'rails', 'mongodb', 'redis']"
+    >
+      Co-designer of the project. A intelectual property tracking system.
+      Responsible for finding and reporting illegal content. Support for most
+      popular file hosting sites, Bittorrent trackers, RSS feeds, popular
+      forums.
+      <ul>
+        <li>Rails 4 then 5 backends</li>
+        <li>jQuery</li>
+        <li>Google search integrations</li>
+        <li>Google DMCA</li>
+        <li>MongoDB backend storage</li>
+        <li>Scraper workers using Capybara and resque</li>
       </ul>
     </ProjectItem>
   </div>

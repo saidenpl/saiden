@@ -45,6 +45,10 @@ export default {
   display: inline-block;
 }
 
+.project-title strong {
+  color: red;
+}
+
 .project-item {
   width: 100%;
 }
