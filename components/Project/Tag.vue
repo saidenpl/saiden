@@ -29,11 +29,11 @@ export default {
 <style>
 .tag {
   font-size: 1.2rem;
-  background-color: white;
+  background-color: lightgray;
   margin-top: 0.5rem;
   margin-right: 0.5rem;
   color: red;
-  border: 2px solid white;
+  border: 2px solid lightgray;
   border-radius: 0.4rem;
   padding: 0.3rem;
   min-width: 9rem;
