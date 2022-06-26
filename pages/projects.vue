@@ -5,6 +5,7 @@
       from="2016-11-01"
       to="2021-08-01"
       web="https://roomzilla.net"
+      client="Roomzilla sp. z o.o."
       :tags="['ruby', 'postgresql', 'heroku']"
     >
       A SaaS resource booking system. Originally specific to conference rooms,

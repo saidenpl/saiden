@@ -1,7 +1,7 @@
 <template>
   <div class="project-item">
     <div class="project-details">
-      <div class="project-title">{{ title }}</div>
+      <div class="project-title"><strong>{{ title }}</strong> for {{client}}</div>
       <div class="project-time">{{ from }} - {{ to }}</div>
     </div>
     <div class="project-website">
@@ -17,7 +17,7 @@
 
 <script>
 export default {
-  props: ['title', 'from', 'to', 'web', 'tags'],
+  props: ['title', 'from', 'to', 'web', 'tags', 'client'],
 }
 </script>
 
@@ -27,7 +27,7 @@ export default {
   display: table;
 }
 
-.project-title,
+.project-title > strong,
 .project-time {
   font-size: 1.5rem;
   text-transform: uppercase;
