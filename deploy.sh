@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+yarn generate
 cp -Rav dist /tmp/dist
 cd /tmp/dist
 git init
