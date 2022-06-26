@@ -2,12 +2,12 @@
   <div class="project-item">
     <div class="project-details">
       <div class="project-title">
-        <strong>{{ title }}</strong> for {{ client }}
+        <strong>{{ title }}</strong> as {{ role }} for {{ client }}
       </div>
       <div class="project-time">{{ from }} - {{ to }}</div>
     </div>
     <div class="project-website">
-      <a :href="web">{{ web }}</a>
+      <a :href="web" target="_blank">{{ web }}</a>
     </div>
     <hr />
     <div class="project-description">
@@ -19,12 +19,13 @@
 
 <script>
 export default {
-  props: ['title', 'from', 'to', 'web', 'tags', 'client'],
+  props: ['title', 'from', 'to', 'web', 'tags', 'client', 'role'],
 }
 </script>
 
 <style>
 .project-item {
+  margin-bottom: 4rem;
   color: white;
   display: table;
 }
