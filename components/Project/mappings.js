@@ -1,8 +1,4 @@
 const mappings = {
-  ruby: {
-    name: 'Ruby',
-    icon: 'ruby-plain',
-  },
   postgresql: {
     name: 'PostgreSQL',
     icon: 'postgresql-plain',
@@ -10,10 +6,6 @@ const mappings = {
   vuejs: {
     name: 'Vue.js',
     icon: 'vuejs-plain',
-  },
-  heroku: {
-    name: 'Heroku',
-    icon: 'heroku-plain',
   },
   googleApi: {
     name: 'Google API',
