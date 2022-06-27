@@ -4,7 +4,11 @@ const nuxtConfig = require('../nuxt.config.js')
 let nuxt = null
 
 beforeAll(async () => {
-  nuxt = new Nuxt({...nuxtConfig, server: { port: 3001}, buildDir: '.nuxt-build-jest'})
+  nuxt = new Nuxt({
+    ...nuxtConfig,
+    server: { port: 3001 },
+    buildDir: '.nuxt-build-jest',
+  })
 
   await new Builder(nuxt).build()
 
