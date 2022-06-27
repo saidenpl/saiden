@@ -1,3 +1,5 @@
+[![ci](https://github.com/saidenpl/saiden/actions/workflows/ci.yml/badge.svg)](https://github.com/saidenpl/saiden/actions/workflows/ci.yml)
+
 # saiden
 
 ## Build Setup
