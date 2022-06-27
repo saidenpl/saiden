@@ -16,7 +16,7 @@
         'azure',
         'googleApi',
         'msgraph',
-        'redis'
+        'redis',
       ]"
     >
       A SaaS resource booking system. Team of 1 QA, 1 FE and 2 Fullstacks.

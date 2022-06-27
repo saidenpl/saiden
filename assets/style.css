@@ -8,12 +8,12 @@ body {
 div.container {
   margin-left: auto;
   margin-right: auto;
-  width: 66vh;
+  width: 66vw;
 }
 
 @media only screen and (min-width: 801px) and (max-width: 1441px) {
   div.container {
-    width: 80vh;
+    width: 80vw;
   }
 }
 
