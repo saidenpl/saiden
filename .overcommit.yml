@@ -15,10 +15,32 @@
 #
 # Uncomment the following lines to make the configuration take effect.
 
-#PreCommit:
-#  RuboCop:
-#    enabled: true
-#    on_warn: fail # Treat all warnings as failures
+CommitMsg:
+  ALL:
+    on_warn: 'fail'
+
+  CapitalizedSubject:
+    enabled: false
+
+  TextWidth:
+    enabled: false
+
+PrepareCommitMsg:
+  JiraIssue:
+    enabled: true
+    description: 'Prepends the commit message with JIRA ID based on the branch name'
+    branch_pattern: '(.*?)(?<ticket>[A-Z][A-Z0-9]+-[0-9]+)(.*)'
+    replacement_text: '\k<ticket>'
+    skipped_commit_types:
+      - 'merge'    # if merging
+      - 'squash'   # if squashing
+    on_fail: fail
+
+PreCommit:
+  EsLint:
+    enabled: true
+    command: ['yarn', 'lint']
+
 #
 #  TrailingWhitespace:
 #    enabled: true
