@@ -5,6 +5,11 @@ body {
   color: lightgray;
 }
 
+html {
+  overflow: -moz-scrollbars-vertical; 
+  overflow-y: scroll;
+}
+
 div.container {
   margin-left: auto;
   margin-right: auto;
