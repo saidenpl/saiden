@@ -1,4 +1,4 @@
-import { builder, nuxt, request} from './setup'
+import { builder, nuxt, request } from './setup'
 
 beforeAll(async () => {
   await builder

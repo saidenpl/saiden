@@ -1,4 +1,4 @@
-import { builder, nuxt, request} from './setup'
+import { builder, nuxt, request } from './setup'
 
 beforeAll(async () => {
   await builder
@@ -19,7 +19,6 @@ describe('GET /about', () => {
     expect(html).toContain('Communicative and resourceful Software Developer')
     expect(html).toContain('Download my CV as PDF')
     expect(html).toContain('Some of projects I have been part of')
-
   })
 })
 
