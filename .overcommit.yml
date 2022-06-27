@@ -29,7 +29,6 @@ PreCommit:
   EsLint:
     enabled: true
     command: ['yarn', 'lint']
-
 #
 #  TrailingWhitespace:
 #    enabled: true

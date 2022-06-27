@@ -18,7 +18,6 @@
         <i class="fa-solid fa-arrow-right"></i>
       </Button>
     </NuxtLink>
-
   </div>
 </template>
 
