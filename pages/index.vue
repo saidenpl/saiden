@@ -6,12 +6,19 @@
     <div class="welcome-text">
       <h3>Welcome to Saiden, a sanctuary of digital thought</h3>
     </div>
+    <a href="https://github.com/saidenpl/saiden" target="_blank">
+      <Button>
+        <i class="devicon-github-original"></i>
+        Open source on GitHub
+      </Button>
+    </a>
     <NuxtLink to="/about">
       <Button>
         See more about me
         <i class="fa-solid fa-arrow-right"></i>
       </Button>
     </NuxtLink>
+
   </div>
 </template>
 
